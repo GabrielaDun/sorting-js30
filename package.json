@@ -9,7 +9,7 @@
     "mocha": "6.2.1"
   },
   "scripts": {
-  "test": "mocha",
+  "test": "mocha --watch \"./{,!(node_modules|client)/**/}*.test.js\"",
   "test:watch": "mocha --watch"
   },
   "repository": "git@github.com:GabrielaDun/testing-backend.git",
